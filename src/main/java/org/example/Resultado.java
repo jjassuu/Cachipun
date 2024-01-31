@@ -2,6 +2,7 @@ package org.example;
 
 import static org.example.Juego.*;
 
+//Determinará el resultado del juego comparando las elecciones del jugador y computador
 public class Resultado {
     /*Utilizamos este método para determinar el resultado del juego comparando las
     elecciones del jugador y la computadora*/
