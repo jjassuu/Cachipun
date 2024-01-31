@@ -68,7 +68,7 @@ public class Juego {
 
             return player;
     }
-/*Estos métodos sirven para incrementar y guardar los valores actuales en el tablero*/
+/*Estos métodos sirven para incrementar y guardar los valores actuales en el tablero durante el juego*/
     public static void incrementWins() {
         wins++;
     }
