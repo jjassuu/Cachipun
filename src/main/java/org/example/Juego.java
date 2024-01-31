@@ -5,6 +5,7 @@ import java.util.*;
 import static org.example.Eleccion.mostrarEleccion;
 import static org.example.Opcion.obtenerTextoOpcion;
 
+//Controla lógica del juego, la tabla y los resultados.
 public class Juego {
     public static final int PIEDRA = 1;
     public static final int PAPEL = 2;
@@ -17,11 +18,14 @@ public class Juego {
     private static int losses = 0;
     private static int ties = 0;
 
-
+//Este método inicia el juego y controla el flujo de este, hasta que el jugador decida salir
     public void iniciarJuego() {
+        // mientras que la variable again sea 1, se introduce en el bucle        
         int again;
+        
         /*Creo un bucle para que el jugador pueda jugar múltiples veces mientras que pulse 1**/
         do {
+            //llamo al método Menú
             mostrarMenu();
             int player = obtenerEntradaUsuario();
             int computer = Eleccion.generarEleccionComputadora();
@@ -29,7 +33,7 @@ public class Juego {
             mostrarEleccion(player, computer, obtenerTextoOpcion(player), obtenerTextoOpcion(computer));
             Resultado.determinarResultado(player, computer);
 
-            Tablero.mostrarTablero();
+            Tablero.mostrarTablero();// se muestra el tablero actualizado
 
             System.out.print("¿Quieres volver a jugar? (1->Si, 2->No): ");
             again = scanner.nextInt();
@@ -50,7 +54,7 @@ public class Juego {
 
             do {
                 System.out.print("Ingresa una opción (1-3): ");
-                //El scanner.hasNextInt--> solo imprime
+                //El scanner.hasNextInt--> verifica si el numero introducido es entero
                 inputValido = scanner.hasNextInt();
 
                 if (inputValido) {
