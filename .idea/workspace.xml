@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Cachipunpptt:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef0d470b-4cb5-4c74-a3a2-ae5617136bae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Eleccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Juego.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Opcion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Resultado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Tablero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Empate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ganador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Perdedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Cachipunpptt_jar/Cachipunpptt.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Cachipunpptt_jar/Cachipunpptt.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Eleccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Eleccion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Juego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Resultado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Resultado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Tablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Tablero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Empate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Empate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ganador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ganador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Perdedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Perdedor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,38 +50,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.Empate.executor": "Run",
-    "JUnit.Ganador.executor": "Run",
-    "JUnit.Perdedor.executor": "Run",
-    "JUnit.Testpt.executor": "Run",
-    "JUnit.Testpt.testDeterminarResultadoEmpate.executor": "Run",
-    "JUnit.Testpt.testDeterminarResultadoGanador.executor": "Run",
-    "JUnit.Testpt.testDeterminarResultadoPerdedor.executor": "Run",
-    "JUnit.ppttest.executor": "Coverage",
-    "JUnit.ppttest.testDeterminarResultadoEmpate.executor": "Run",
-    "JUnit.ppttest.testDeterminarResultadoPerdedor.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jhoma/IdeaProjects/Cachipunpptt/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/jhoma/IdeaProjects/Cachipunpptt/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.Empate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Ganador.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.Perdedor.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Testpt.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Testpt.testDeterminarResultadoEmpate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Testpt.testDeterminarResultadoGanador.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Testpt.testDeterminarResultadoPerdedor.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ppttest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.ppttest.testDeterminarResultadoEmpate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ppttest.testDeterminarResultadoPerdedor.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jhoma/IdeaProjects/Cachipunpptt/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jhoma/IdeaProjects/Cachipunpptt/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="JUnit.Ganador">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Cachipunpptt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Empate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cachipunpptt" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Empate" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ganador" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cachipunpptt" />
       <option name="PACKAGE_NAME" value="" />
@@ -101,16 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ganador.testDeterminarResultadoGanador" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Cachipunpptt" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Ganador" />
-      <option name="METHOD_NAME" value="testDeterminarResultadoGanador" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Ganador.testDeterminarResultadoPerdedor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cachipunpptt" />
       <option name="PACKAGE_NAME" value="" />
@@ -123,10 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Ganador" />
+        <item itemvalue="JUnit.Empate" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.Ganador.testDeterminarResultadoPerdedor" />
         <item itemvalue="JUnit.Ganador.testDeterminarResultadoEmpate" />
-        <item itemvalue="JUnit.Ganador" />
-        <item itemvalue="JUnit.Ganador.testDeterminarResultadoGanador" />
       </list>
     </recent_temporary>
   </component>
@@ -147,14 +160,37 @@
       <updated>1706569737393</updated>
       <workItem from="1706569738506" duration="11934000" />
       <workItem from="1706618010340" duration="8437000" />
-      <workItem from="1706636717931" duration="13429000" />
+      <workItem from="1706636717931" duration="13812000" />
+      <workItem from="1706712779543" duration="756000" />
+      <workItem from="1706769628608" duration="6726000" />
+      <workItem from="1707063008228" duration="964000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Ganador.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" log-message="true" type="java-exception">
+          <dependency leave-enabled="true" master-id="0" />
+        </breakpoint>
+        <breakpoint type="javascript-exception">
+          <dependency id="0" />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Cachipunpptt$ppttest.ic" NAME="ppttest Coverage Results" MODIFIED="1706638173517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Cachipunpptt$Empate.ic" NAME="Empate Coverage Results" MODIFIED="1706769789403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

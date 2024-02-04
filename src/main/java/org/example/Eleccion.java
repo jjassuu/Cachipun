@@ -1,6 +1,6 @@
 package org.example;
 import java.util.*;
-
+//Genera la elección aleatoria de la computadora y muestra en pantalla la eleccion del jugador y la del ordenador
 public class Eleccion {
     //Constante que genera numeros aleatorios
     private static final Random random = new Random();

@@ -4,7 +4,7 @@ import java.util.*;
 
 import static org.example.Eleccion.mostrarEleccion;
 import static org.example.Opcion.obtenerTextoOpcion;
-
+//Controla logica del juego, la tabla y los resultados
 public class Juego {
     public static final int PIEDRA = 1;
     public static final int PAPEL = 2;
@@ -12,16 +12,18 @@ public class Juego {
 
     private static final Scanner scanner = new Scanner(System.in);
 
-    /*Contadores para wins, losses, ties*/
-    private static int wins = 0;
-    private static int losses = 0;
-    private static int ties = 0;
+    /*Contadores para victorias, derrotas y empates*/
+    private static int victorias = 0;
+    private static int derrotas = 0;
+    private static int empates = 0;
 
-
+//Este metodo inicia el juego y controla el flujo de este, hasta que el jugador decida salir
     public void iniciarJuego() {
+        //Mientras que la variable again sea 1, esta se introduce en el bucle
         int again;
         /*Creo un bucle para que el jugador pueda jugar múltiples veces mientras que pulse 1**/
         do {
+            //Llamo al método menú
             mostrarMenu();
             int player = obtenerEntradaUsuario();
             int computer = Eleccion.generarEleccionComputadora();
@@ -29,7 +31,7 @@ public class Juego {
             mostrarEleccion(player, computer, obtenerTextoOpcion(player), obtenerTextoOpcion(computer));
             Resultado.determinarResultado(player, computer);
 
-            Tablero.mostrarTablero();
+            Tablero.mostrarTablero();//Se muestra el tablero actualizado
 
             System.out.print("¿Quieres volver a jugar? (1->Si, 2->No): ");
             again = scanner.nextInt();
@@ -50,7 +52,7 @@ public class Juego {
 
             do {
                 System.out.print("Ingresa una opción (1-3): ");
-                //El scanner.hasNextInt--> solo imprime
+                //El scanner.hasNextInt--> verifica si el numero introducido es entero
                 inputValido = scanner.hasNextInt();
 
                 if (inputValido) {
@@ -69,26 +71,26 @@ public class Juego {
             return player;
     }
 /*Estos métodos sirven para incrementar y guardar los valores actuales en el tablero*/
-    public static void incrementWins() {
-        wins++;
+    public static void incrementoVictorias() {
+        victorias++;
     }
 
-    public static void incrementLosses() {
-        losses++;
+    public static void incrementoDerrotas() {
+        derrotas++;
     }
 
-    public static void incrementTies() {
-        ties++;
+    public static void incrementoempates() {
+        empates++;
     }
-    public static int getWins() {
-        return wins;
-    }
-
-    public static int getLosses() {
-        return losses;
+    public static int getVictorias() {
+        return victorias;
     }
 
-    public static int getTies() {
-        return ties;
+    public static int getDerrotas() {
+        return derrotas;
+    }
+
+    public static int getEmpates() {
+        return empates;
     }
 }

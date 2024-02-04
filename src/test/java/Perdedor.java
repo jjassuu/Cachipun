@@ -11,8 +11,8 @@ public class Perdedor {
 
         Resultado.determinarResultado(player, computer);
 
-        assertEquals(0, Juego.getTies());
-        assertEquals(0, Juego.getWins());
-        assertEquals(1, Juego.getLosses());
+        assertEquals(0, Juego.getEmpates());
+        assertEquals(0, Juego.getVictorias());
+        assertEquals(1, Juego.getDerrotas());
     }
 }

@@ -9,12 +9,12 @@ public class Ganador {
     @Test
     public void testDeterminarResultadoGanador() {
         int player = Juego.PIEDRA;
-        int computer = Juego.TIJERAS;
+        int computer = Juego.PIEDRA;
 
         Resultado.determinarResultado(player, computer);
 
-        assertEquals(0, Juego.getTies());
-        assertEquals(1, Juego.getWins());
-        assertEquals(0, Juego.getLosses());
+        assertEquals(0, Juego.getEmpates());
+        assertEquals(1, Juego.getVictorias());
+        assertEquals(0, Juego.getDerrotas());
     }
 }

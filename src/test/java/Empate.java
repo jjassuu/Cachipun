@@ -12,8 +12,8 @@ public class Empate {
 
         Resultado.determinarResultado(player, computer);
 
-        assertEquals(1, Juego.getTies());
-        assertEquals(0, Juego.getWins());
-        assertEquals(0, Juego.getLosses());
+        assertEquals(1, Juego.getEmpates());
+        assertEquals(0, Juego.getVictorias());
+        assertEquals(0, Juego.getDerrotas());
     }
 }
