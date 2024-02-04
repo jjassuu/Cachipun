@@ -4,7 +4,9 @@ import java.util.*;
 
 import static org.example.Eleccion.mostrarEleccion;
 import static org.example.Opcion.obtenerTextoOpcion;
+
 //Controla logica del juego, la tabla y los resultados
+
 public class Juego {
     public static final int PIEDRA = 1;
     public static final int PAPEL = 2;
@@ -17,19 +19,23 @@ public class Juego {
     private static int derrotas = 0;
     private static int empates = 0;
 
-//Este metodo inicia el juego y controla el flujo de este, hasta que el jugador decida salir
+
+    //Este método inicia el juego y controla el flujo de este, hasta que el jugador decida salir
     public void iniciarJuego() {
-        //Mientras que la variable again sea 1, esta se introduce en el bucle
+        // mientras que la variable again sea 1, se introduce en el bucle        
+
         int again;
+        
         /*Creo un bucle para que el jugador pueda jugar múltiples veces mientras que pulse 1**/
         do {
-            //Llamo al método menú
+            //llamo al método Menú
             mostrarMenu();
             int player = obtenerEntradaUsuario();
             int computer = Eleccion.generarEleccionComputadora();
 
             mostrarEleccion(player, computer, obtenerTextoOpcion(player), obtenerTextoOpcion(computer));
             Resultado.determinarResultado(player, computer);
+
 
             Tablero.mostrarTablero();//Se muestra el tablero actualizado
 
@@ -70,16 +76,16 @@ public class Juego {
 
             return player;
     }
+
 /*Estos métodos sirven para incrementar y guardar los valores actuales en el tablero*/
     public static void incrementoVictorias() {
         victorias++;
     }
-
     public static void incrementoDerrotas() {
         derrotas++;
     }
 
-    public static void incrementoempates() {
+    public static void incrementoEmpates() {
         empates++;
     }
     public static int getVictorias() {
