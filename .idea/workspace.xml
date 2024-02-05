@@ -11,9 +11,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ef0d470b-4cb5-4c74-a3a2-ae5617136bae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Eleccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Eleccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Juego.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Resultado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Resultado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Cachipunpptt_jar/Cachipunpptt.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Cachipunpptt_jar/Cachipunpptt.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Empate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Empate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ganador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ganador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Perdedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Perdedor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "JUnit.Empate.executor": "Run",
-    "JUnit.Ganador.executor": "Debug",
+    "JUnit.Ganador.executor": "Run",
     "JUnit.Perdedor.executor": "Run",
     "JUnit.Testpt.executor": "Run",
     "JUnit.Testpt.testDeterminarResultadoEmpate.executor": "Run",
@@ -60,7 +61,7 @@
     "JUnit.ppttest.testDeterminarResultadoPerdedor.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/jhoma/IdeaProjects/Cachipunpptt/src/main/resources",
     "node.js.detected.package.eslint": "true",
@@ -70,13 +71,13 @@
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/jhoma/IdeaProjects/Cachipunpptt/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propCompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.Perdedor">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Cachipunpptt" />
@@ -108,16 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ganador.testDeterminarResultadoEmpate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Cachipunpptt" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Ganador" />
-      <option name="METHOD_NAME" value="testDeterminarResultadoEmpate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Ganador.testDeterminarResultadoPerdedor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cachipunpptt" />
       <option name="PACKAGE_NAME" value="" />
@@ -128,13 +119,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Perdedor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cachipunpptt" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Perdedor" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Perdedor" />
         <item itemvalue="JUnit.Ganador" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.Empate" />
         <item itemvalue="JUnit.Ganador.testDeterminarResultadoPerdedor" />
-        <item itemvalue="JUnit.Ganador.testDeterminarResultadoEmpate" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +159,8 @@
       <workItem from="1706712779543" duration="756000" />
       <workItem from="1706769628608" duration="6726000" />
       <workItem from="1707063008228" duration="1540000" />
-      <workItem from="1707069293338" duration="710000" />
+      <workItem from="1707069293338" duration="1041000" />
+      <workItem from="1707155865179" duration="299000" />
     </task>
     <servers />
   </component>
@@ -171,8 +172,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Ganador.java</url>
-          <line>13</line>
+          <line>14</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Ganador.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

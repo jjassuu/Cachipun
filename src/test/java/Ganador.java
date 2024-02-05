@@ -5,11 +5,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+//Test que determina que la eleccion del jugador sale ganadora cuando gana
 public class Ganador {
     @Test
     public void testDeterminarResultadoGanador() {
         int player = Juego.PIEDRA;
-        int computer = Juego.PIEDRA;
+    int computer = Juego.TIJERAS;
 
         Resultado.determinarResultado(player, computer);
 

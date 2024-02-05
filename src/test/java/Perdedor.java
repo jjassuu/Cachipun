@@ -3,6 +3,7 @@ import org.example.Resultado;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+//Test que determina que el jugador salga perdedor cuando pierdaCC
 public class Perdedor {
     @Test
     public void testDeterminarResultadoPerdedor() {

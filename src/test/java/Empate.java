@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+//test que determina que cuando ambos jugadores escojan la misma eleccion de empate
 public class Empate {
     @Test
     public void testDeterminarResultadoEmpate() {
